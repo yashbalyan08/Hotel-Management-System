@@ -1,0 +1,12 @@
+The given modules are used in the management system:
+
+random:
+	This module is used in customer place. The thing unique ID is given by the randomly generated number.
+datetime:
+	This module is used in multiple place, for the multiple input of date and time.
+time:
+	This module is used in multiple place, for the multiple input of time.
+date from datetime:
+	This module is used in multiple place, for the multiple input of date
+mysql.connector:
+	This the main module used to have interface between MySQL and python.
