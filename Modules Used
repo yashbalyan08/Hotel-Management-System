@@ -1,0 +1,16 @@
+import random                 # might be deleted later
+import datetime               # to get the accurate date and time
+import time                   # to get the time
+from datetime import date     # to get the datre
+
+import mysql.connector        # to connect the database need to be dowloaded externally "pip install mysql-connector-python"
+
+mydb=mysql.connector.connect(host="localhost", user="root", passwd="", database="hotel")
+if mydb.is_connected()==False:
+    print("Databse is not connected...")      # to check whether the database is connected to the python or not.
+else:
+    mycursor = mydb.cursor()
+
+'''
+the above code just adds the modules required by the user.
+'''
