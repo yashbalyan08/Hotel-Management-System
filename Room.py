@@ -100,7 +100,7 @@ def DV():
     mycursor.execute("select * from room_info where Room_Status = 'V'")
     Display_Vacant = mycursor.fetchall()
     for row in Display_Vacant:
-        print(row
+        print(row)
 
 "------Display all the booked rooms Function-----"
 
